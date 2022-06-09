@@ -57,7 +57,7 @@ public class Person{
     infected = true; 
     susceptible = false;
     // Only 20% of individuals infected are not symptomatic.
-    int chance = int(random(0, 11));
+    int chance = int(random(0, 5));
     if(chance <= 2){
       symptomatic = false;
     }else{

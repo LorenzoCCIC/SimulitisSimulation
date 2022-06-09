@@ -1,9 +1,9 @@
-int populationSize = 4620; // Assign to an expression that represents number of people per square mile
-int infectedSeed = 1; // Assign to some number from 1 to 10.
-
+int populationSize = 25000; // Assign to an expression that represents number of people per square mile
+int infectedSeed = 5; // Assign to some number from 1 to 10.
+int probability = 10;
 // DO NOT CHANGE ANY CODE FOUND BELOW!
 int distance = 10; 
-int citySize = 500;
+int citySize = 1000;
 City myCity;
 UI stats;
 public void settings(){

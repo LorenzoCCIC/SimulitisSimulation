@@ -50,7 +50,7 @@ public class City{
         if(person1.getDaysInfected() == 7){
           if(person1.isSymptomatic() && person1.isAlive()){
             int chance = int(random(0, 11)); 
-            if(chance == 1){
+            if(chance <= probability){
               person1.kill(); 
               println("Person dies! " + idx);
             }else{
